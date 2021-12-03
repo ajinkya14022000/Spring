@@ -11,7 +11,6 @@ public class Product
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int pid;
-    
 	private String pname;
 	private double price;
 	private int qty;
